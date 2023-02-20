@@ -1,4 +1,5 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import MainHeader from "./components/MainHeader";
 import Products from "./pages/Products";
 import Welcome from "./pages/Welcome";
 
@@ -6,9 +7,7 @@ function App()
 {
   return (
     <>
-      <header>
-
-      </header>
+      <MainHeader />
       <main>
         <Router>
           <Routes>
