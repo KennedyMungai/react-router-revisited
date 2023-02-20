@@ -7,12 +7,8 @@ function App()
   return (
     <Router>
       <Routes>
-        <Route path='/welcome'>
-          <Welcome />
-        </Route>
-        <Route path='products'>
-          <Products />
-        </Route>
+        <Route path='/welcome' element={<Welcome />} />
+        <Route path='/products' element={<Products />} />
       </Routes>
     </Router>
   );
