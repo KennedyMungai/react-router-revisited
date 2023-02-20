@@ -1,11 +1,16 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Welcome from "./components/Welcome";
 
 function App()
 {
   return (
-    <div>
-      <h2>Let's get started!</h2>
-    </div>
+    <Router>
+      <Routes>
+        <Route path='/welcome'>
+          <Welcome />
+        </Route>
+      </Routes>
+    </Router>
   );
 }
 
