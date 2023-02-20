@@ -1,4 +1,5 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Products from "./components/Products";
 import Welcome from "./components/Welcome";
 
 function App()
