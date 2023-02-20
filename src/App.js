@@ -10,6 +10,9 @@ function App()
         <Route path='/welcome'>
           <Welcome />
         </Route>
+        <Route path='products'>
+          <Products />
+        </Route>
       </Routes>
     </Router>
   );
