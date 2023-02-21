@@ -14,7 +14,7 @@ function App()
         <Routes>
           <Route path='/' element={<Welcome />} />
           <Route path='/products' element={<Products />} />
-          <Route path='/products/product-detail/:productId' element={<ProductDetail />} />
+          <Route path='/products/:productId' element={<ProductDetail />} />
           <Route path="*" element={<ErrorPage />} />
         </Routes>
       </main>
