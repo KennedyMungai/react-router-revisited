@@ -1,5 +1,6 @@
 import { Route, Routes } from "react-router-dom";
 import MainHeader from "./components/MainHeader";
+import ProductDetail from "./pages/ProductDetail";
 import Products from "./pages/Products";
 import Welcome from "./pages/Welcome";
 
@@ -12,6 +13,7 @@ function App()
         <Routes>
           <Route path='/' element={<Welcome />} />
           <Route path='/products' element={<Products />} />
+          <Route path='/products/product-detail' element={<ProductDetail />} />
         </Routes>
       </main>
     </>
