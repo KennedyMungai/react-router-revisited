@@ -1,4 +1,4 @@
-import { Route, Routes, Switch } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import MainHeader from "./components/MainHeader";
 import ErrorPage from "./pages/ErrorPage";
 import ProductDetail from "./pages/ProductDetail";
