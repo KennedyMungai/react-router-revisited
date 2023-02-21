@@ -8,10 +8,10 @@ const MainHeader = () =>
             <nav>
                 <ul>
                     <li>
-                        <a href="/">Welcome</a>
+                        <Link href="/">Welcome</Link>
                     </li>
                     <li>
-                        <a href="/products">Products</a>
+                        <Link href="/products">Products</Link>
                     </li>
                 </ul>
             </nav>
