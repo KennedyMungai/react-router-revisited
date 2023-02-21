@@ -3,7 +3,9 @@ import React from 'react'
 const Welcome = () =>
 {
     return (
-        <h1>Welcome To The HoneyBadger experience</h1>
+        <section>
+            <h1>Welcome To The HoneyBadger experience</h1>
+        </section>
     )
 }
 
