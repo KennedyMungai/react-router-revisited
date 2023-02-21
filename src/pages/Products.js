@@ -7,9 +7,21 @@ const Products = () =>
         <section>
             <h1>The Products Page</h1>
             <ul>
-                <li>A book</li>
-                <li>A carpet</li>
-                <li>An online course</li>
+                <li>
+                    <Link to='/products/book'>
+                        A book
+                    </Link>
+                </li>
+                <li>
+                    <Link to='/products/carpet'>
+                        A carpet
+                    </Link>
+                </li>
+                <li>
+                    <Link to='/products/online-course'>
+                        An online course
+                    </Link>
+                </li>
             </ul>
         </section>
     )
